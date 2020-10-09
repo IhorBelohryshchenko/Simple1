@@ -20,13 +20,13 @@ section#block3 img {
 main {
     text-align: center;
 }
-section span:nth-child(1) {
+section#block2 span:nth-child(1) {
     font-style: italic;
 }
-section span:nth-child(2) {
+section#block2 span:nth-child(2) {
     font-weight: bolder;
 }
-section span:nth-child(3) {
+section#block2 span:nth-child(3) {
     color:blue;
     font-style: italic;
     font-weight: bolder;
