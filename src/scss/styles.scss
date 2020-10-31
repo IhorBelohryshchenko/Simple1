@@ -1,0 +1,109 @@
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+        &__text {
+            font-size: 20px;
+            color: #898f8f;
+        }
+            &__title {
+                font-size: 50px;
+                color: #ffcc00;
+                margin-top: -50px;
+            }
+
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.left {
+    border: 1px solid #ffcc00;
+    padding: 10px;
+        &__image {
+            border: 1px solid #ffcc00;
+        }
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+        &__line {
+            border-bottom: 1px solid #ffcc00;
+            width: 100px;
+        }
+}
+
+.right__name {
+    color: #666666;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.right__line {
+    border-bottom: 1px solid #ffcc00;
+    width: 100px;
+    text-align: center;
+}
+.right__position {
+    color: #333333;
+    font-size: 18px;
+}
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 18px; 
+
+    &__item {
+        border: 2px solid #cccccc;
+        border-radius: 50%;
+        margin-left: 7px;
+        height: 18px;
+        width: 20px;
+        padding: 5px 5px;       
+    }
+}
+
+.right__text {
+    color: #333333;
+    line-height: 1.5em;
+}  
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+
+    &__item{
+        width: 10px;
+        border-bottom: 4px solid #ffcc00;
+        margin-left: 10px;
+    }
+        &__item--wide {
+            border-bottom: 4px solid #ffcc00;
+            margin-left: 10px;
+            width: 25px;
+        }
+}
+
+.right__button button {
+    background-color: white;
+    color: #666666;
+    border: 1.5px solid #ffcc00;
+    font-weight: bold;
+    padding: 5px 10px;
+}
